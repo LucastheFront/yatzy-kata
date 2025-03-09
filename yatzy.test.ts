@@ -36,7 +36,7 @@ Deno.test("Testing Full House", async (t) => {
   );
 
   await t.step("False full house should return 0", () => {
-    const score = calculateScore([5, 2, 3, 0, 1], "full house");
+    const score = calculateScore([5, 2, 3, 2, 1], "full house");
     assertEquals(score, 0);
   });
 });

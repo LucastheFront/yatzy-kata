@@ -1,5 +1,5 @@
-export type Roll = [number, number, number, number, number];
-
+type DiceValue = 1 | 2 | 3 | 4 | 5 | 6;
+export type Roll = [DiceValue, DiceValue, DiceValue, DiceValue, DiceValue];
 export type Category =
   | "yahtzee"
   | "full house"
